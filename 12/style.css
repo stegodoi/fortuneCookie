@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    background: white;
+
+    width: 42.8rem;
+    height: 42.4rem;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    padding: 48px 64px 64px 64px;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    border-radius: 5px;
+  
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+}
+
+.main h1 {
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main p {
+    color: #34355B;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main img {
+    width: 248.842px;
+    height: 191.79px;
+    flex-shrink: 0;
+}
+
+.screen2 {
+    width: 42.8rem;
+    height: 56.4rem;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+
+    display: flex;
+    padding: 4.8rem 6.4rem;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.7rem;
+
+    width: 30rem;
+    height: 46.8rem;
+}
+
+.content h1 {
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-random {
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 27.3rem;
+
+    font-family: "Dancing Script";
+    color: #000;
+
+    background: #E4EDF1;
+    box-shadow: .2rem .2rem .2rem 0 rgba(85, 85, 85, 0.50);
+
+    font-size: large;
+}
+
+.content img {
+    display: flex;
+    width: 30.0rem;
+    height: 114.531px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    padding-top: 3rem;
+   
+}
+
+.content button {
+    display: flex;
+    padding: 1.6rem;
+    align-items: flex-start;
+    gap: 1.0rem;
+
+    border-radius: 4px;
+    background: #FF9500;
+
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border: none;
+
+    margin-top: 3rem;
+
+}
+
+
+.hide {
+    display: none;
+}
